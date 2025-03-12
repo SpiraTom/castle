@@ -83,9 +83,9 @@ abstract ArrayRead<T>(Array<T>) from Array<T> {
 
 }
 
-abstract Flags<T>(Int) {
+abstract Flags<T>(Int) from Int {
 
-	inline function new(x:Int) {
+	public inline function new(x:Int) {
 		this = x;
 	}
 
